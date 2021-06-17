@@ -1,0 +1,6 @@
+services:
+  App\Tests\Decorated\Publisher:
+    decorates: swarrot.publisher
+    arguments:
+      - '@swarrot.factory.default'
+      - '@event_dispatcher'

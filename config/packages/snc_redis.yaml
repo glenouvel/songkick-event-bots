@@ -1,0 +1,6 @@
+snc_redis:
+  clients:
+    api_cache:
+      type: predis
+      alias: api_cache
+      dsn: "%env(REDIS_CACHE_URL)%"

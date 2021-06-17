@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+        backupGlobals="true"
+        backupStaticAttributes="false"
+        cacheTokens="false"
+        colors="false"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        forceCoversAnnotation="false"
+        processIsolation="false"
+        stopOnError="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        stopOnSkipped="false"
+        stopOnRisky="false"
+        timeoutForSmallTests="1"
+        timeoutForMediumTests="10"
+        timeoutForLargeTests="60"
+        verbose="false"
+        bootstrap="vendor/autoload.php"
+>
+    <php>
+        <env name="KERNEL_CLASS" value="App\Tests\Kernel" force="true" />
+        <env name="APP_ENV" value="test" force="true"/>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" force="true" value="weak" />
+        <env name="SHELL_VERBOSITY" value="1" />
+        <env name="RABBITMQ_CLASSIC_HOST" value="127.0.0.1" />
+        <env name="RABBITMQ_CLASSIC_PORT" value="5672" />
+        <env name="RABBITMQ_CLASSIC_USER" value="guest" />
+        <env name="RABBITMQ_CLASSIC_PASSWORD" value="guest" />
+        <env name="REDIS_CACHE_URL" value="" />
+
+    </php>
+
+    <testsuites>
+        <testsuite name="Songkick Events Bots Test Suite">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

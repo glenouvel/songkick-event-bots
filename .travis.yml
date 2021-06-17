@@ -1,0 +1,30 @@
+language: php
+dist: xenial
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 7.2
+
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:ondrej/php'
+    packages:
+      - librabbitmq-dev
+
+before_script:
+  - echo 'autodetect' | pecl install amqp
+  - echo 'autodetect' | pecl install imagick
+  - composer self-update --rollback
+  - composer install -n
+  - cp .env.dist .env
+
+
+script:
+  - ./vendor/bin/simple-phpunit --coverage-clover=coverage.clover
+  - ./vendor/bin/phpstan analyze src || true
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar --access-token="c59bf721c12bf3e52c3276af8dc9ac906ad85009970eeae9283757a679509c83" code-coverage:upload --format=php-clover coverage.clover

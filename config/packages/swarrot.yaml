@@ -1,0 +1,25 @@
+swarrot:
+  connections:
+    rabbitmq.streaming:
+      url: "amqp://%env(RABBITMQ_CLASSIC_USER)%:%env(RABBITMQ_CLASSIC_PASSWORD)%@%env(RABBITMQ_CLASSIC_HOST)%:%env(RABBITMQ_CLASSIC_PORT)%/streaming"
+
+  messages_types:
+    common:
+      connection: rabbitmq.streaming
+      exchange: ''
+
+  consumers:
+    events:
+      processor: App\Processor\EventProcessor
+      middleware_stack:
+        - configurator: swarrot.processor.insomniac
+        - configurator: swarrot.processor.ack
+          extras:
+            requeue_on_error: true
+
+services:
+  App\Processor\EventProcessor:
+    arguments:
+      - '@app.client'
+      - '@swarrot.publisher'
+      - '@soundcharts_wrapper.serializer'
