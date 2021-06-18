@@ -4,6 +4,7 @@ namespace App\Processor;
 
 use App\Provider\SongkickProvider;
 use App\Response\Model\Json\EventCollection;
+use App\Response\Model\Json\Venue;
 use App\Traits\CreateMessageTrait;
 use Soundcharts\Contracts\Model\PlatformInterface;
 use Soundcharts\Contracts\RabbitMQ\ExchangeInterface;
@@ -59,13 +60,15 @@ abstract class AbstractEventProcessor implements ProcessorInterface, ExchangeInt
 
         /** @var \App\Response\Model\Json\Event $eventSongkick */
         foreach ($events as $eventSongkick) {
+
             $event = $account->createEvent();
             $event
                 ->setName($eventSongkick->getName())
                 ->setType($eventSongkick->getType())
                 ->setUrl($eventSongkick->getUri())
                 ->setExternalId($eventSongkick->getIdentifier())
-                ->setDate($eventSongkick->getDate());
+                ->setDate($eventSongkick->getDate())
+            ;
         }
 
         $this->publisher->publish(

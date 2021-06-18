@@ -29,7 +29,7 @@ class SongkickProviderTest extends KernelTestCase
             self::$kernel->getContainer()->get('Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'));
 
         /** @var EventCollection $eventCollection */
-        $eventCollection = $provider->getEventsLatests('1234');
+        $eventCollection = $provider->getLatestEvents('1234');
 
         $this->assertInstanceOf(EventCollection::class, $eventCollection);
 
@@ -73,7 +73,6 @@ class SongkickProviderTest extends KernelTestCase
 
         $this->assertNotEmpty($venue);
 
-
         $this->assertEquals('test', $venue->getIdentifier());
         $this->assertEquals("Fiddler's Green Amphitheatre", $venue->getName());
         $this->assertEquals('6350 Greenwood Plaza Blvd.', $venue->getStreetAddress());
@@ -82,6 +81,5 @@ class SongkickProviderTest extends KernelTestCase
         $this->assertEquals('80111', $venue->getPostalCode());
         $this->assertEquals('US', $venue->getCountryCode());
         $this->assertEquals(18000, $venue->getCapacity());
-        $this->assertEquals(2.0, $venue->getPopularity());
     }
 }
