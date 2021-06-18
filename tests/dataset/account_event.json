@@ -1,0 +1,12 @@
+{
+    "accountId":1,
+    "identifier":"test",
+    "context":{
+        "platform":"",
+        "error":"",
+        "date":"",
+        "retry_count":0
+    },
+    "events":[
+    ]
+}
