@@ -1,0 +1,11 @@
+{
+  "id":"test",
+  "name":"Fiddler's Green Amphitheatre",
+  "streetAddress":"6350 Greenwood Plaza Blvd.",
+  "city":"Greenwood Village",
+  "region":"CO",
+  "countryCode":"US",
+  "postalCode":"80111",
+  "capacity":18000,
+  "popularity":2.0
+}
