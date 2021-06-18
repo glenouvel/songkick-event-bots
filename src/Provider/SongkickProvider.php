@@ -3,6 +3,7 @@
 namespace App\Provider;
 
 use App\Response\Model\Json\EventCollection;
+use App\Response\Model\Json\Venue;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use Soundcharts\ApiClientBundle\Response\ResponseBuilderInterface;
@@ -70,16 +71,18 @@ class SongkickProvider
 
     /**
      * @param string $identifier
-     * @return array
+     * @return Venue
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function getVenue(string $identifier): array
+    public function getVenue(string $identifier): Venue
     {
         $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/venue?%s', $identifier);
 
         $json = $this->client->request('GET', $uri)->getBody()->getContents();
 
-        return json_decode($json, true);
+        /** @var  Venue $venue */
+        $venue = $this->responseBuilder->buildResponse(Venue::class, $json);
 
+        return $venue;
     }
 }
