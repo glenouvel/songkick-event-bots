@@ -13,6 +13,6 @@ class EventProcessor extends AbstractEventProcessor
      */
     protected function getApiEvents(string $identifier): EventCollection
     {
-        return $this->provider->getEventsLatests($identifier);
+        return $this->provider->getLatestEvents($identifier);
     }
 }

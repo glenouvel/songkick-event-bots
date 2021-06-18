@@ -37,7 +37,7 @@ class SongkickProvider
      * @param string $identifier
      * @return EventCollection
      */
-    public function getEventsLatests(string $identifier):EventCollection
+    public function getLatestEvents(string $identifier):EventCollection
     {
         return $this->getEventCollection($identifier, 'events_latest');
     }
@@ -46,7 +46,7 @@ class SongkickProvider
      * @param string $identifier
      * @return EventCollection
      */
-    public function getEventsHistory(string $identifier):EventCollection
+    public function getHistoryEvents(string $identifier):EventCollection
     {
         return $this->getEventCollection($identifier, 'events_history');
     }

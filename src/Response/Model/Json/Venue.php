@@ -21,7 +21,6 @@ class Venue extends AbstractResponse
             'countryCode'   => 'countryCode',
             'postalCode'    => 'postalCode',
             'capacity'      => 'capacity',
-            'popularity'    => 'popularity',
         ];
     }
 
@@ -87,13 +86,5 @@ class Venue extends AbstractResponse
     public function getCapacity(): int
     {
         return $this->getValue('capacity');
-    }
-
-    /**
-     * @return float
-     */
-    public function getPopularity(): float
-    {
-        return $this->getValue('popularity', false);
     }
 }

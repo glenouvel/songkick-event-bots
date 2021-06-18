@@ -13,6 +13,6 @@ class EventHistoryProcessor extends AbstractEventProcessor
      */
     protected function getApiEvents(string $identifier): EventCollection
     {
-        return $this->provider->getEventsHistory($identifier);
+        return $this->provider->getHistoryEvents($identifier);
     }
 }
