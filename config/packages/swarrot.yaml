@@ -9,10 +9,24 @@ swarrot:
       exchange: ''
 
   consumers:
-    events:
+    event.process:
       processor: App\Processor\EventProcessor
       middleware_stack:
         - configurator: swarrot.processor.insomniac
+        - configurator: swarrot.processor.max_messages
+          extras:
+            max_messages: 2000
+        - configurator: swarrot.processor.ack
+          extras:
+            requeue_on_error: true
+
+    event.history.process:
+      processor: App\Processor\EventHistoryProcessor
+      middleware_stack:
+        - configurator: swarrot.processor.insomniac
+        - configurator: swarrot.processor.max_messages
+          extras:
+            max_messages: 2000
         - configurator: swarrot.processor.ack
           extras:
             requeue_on_error: true
@@ -20,6 +34,12 @@ swarrot:
 services:
   App\Processor\EventProcessor:
     arguments:
-      - '@app.client'
+      - '@App\Provider\SongkickProvider'
+      - '@swarrot.publisher'
+      - '@soundcharts_wrapper.serializer'
+
+  App\Processor\EventHistoryProcessor:
+    arguments:
+      - '@App\Provider\SongkickProvider'
       - '@swarrot.publisher'
       - '@soundcharts_wrapper.serializer'
