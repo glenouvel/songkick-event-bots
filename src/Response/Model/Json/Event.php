@@ -13,12 +13,17 @@ class Event extends AbstractResponse
     public function getMapping(): array
     {
         return [
-            'date'       => 'date',
-            'datetime'   => 'datetime',
-            'externalId' => 'externalId',
-            'name'       => 'name',
-            'type'       => 'type',
-            'uri'        => 'uri',
+            'date'            => 'date',
+            'datetime'        => 'datetime',
+            'externalId'      => 'externalId',
+            'name'            => 'name',
+            'type'            => 'type',
+            'uri'             => 'uri',
+            'venueName'       => 'venueName',
+            'city'            => 'city',
+            'region'          => 'region',
+            'countryCode'     => 'countryCode',
+            'venueExternalId' => 'venueExternalId'
         ];
     }
 
@@ -60,5 +65,45 @@ class Event extends AbstractResponse
     public function getType(): string
     {
         return $this->getValue('type');
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getVenueName(): ?string
+    {
+        return $this->getValue('venueName');
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getCity(): ?string
+    {
+        return $this->getValue('city');
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getRegion(): ?string
+    {
+        return $this->getValue('region');
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getCountryCode(): ?string
+    {
+        return $this->getValue('countryCode');
+    }
+
+    /**
+     * @return int
+     */
+    public function getVenueExternalId(): int
+    {
+        return $this->getValue('venueExternalId');
     }
 }

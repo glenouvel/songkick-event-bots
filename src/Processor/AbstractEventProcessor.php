@@ -68,6 +68,11 @@ abstract class AbstractEventProcessor implements ProcessorInterface, ExchangeInt
                 ->setUrl($eventSongkick->getUri())
                 ->setExternalId($eventSongkick->getIdentifier())
                 ->setDate($eventSongkick->getDate())
+                ->setVenueExternalId($eventSongkick->getVenueExternalId())
+                ->setVenue($eventSongkick->getVenueName())
+                ->setCity($eventSongkick->getCity())
+                ->setRegion($eventSongkick->getRegion())
+                ->setCountryCode($eventSongkick->getCountryCode())
             ;
         }
 
