@@ -10,7 +10,12 @@
         "externalId":"39772560",
         "name":"Bryson Tiller",
         "type":"live",
-        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772560-bryson-tiller?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772560-bryson-tiller?utm_medium=organic&utm_source=microformat",
+        "venueName":"",
+        "city":"",
+        "region":"",
+        "countryCode":"",
+        "venueExternalId":0
     },
     {
         "date":"2021-03-19T08:00:00+00:00",
@@ -22,7 +27,12 @@
         "externalId":"39772558",
         "name":"Bryson Tiller",
         "type":"live",
-        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772558-bryson-tiller?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772558-bryson-tiller?utm_medium=organic&utm_source=microformat",
+        "venueName":"",
+        "city":"",
+        "region":"",
+        "countryCode":"",
+        "venueExternalId":0
     },
     {
         "date":"2021-03-19T01:00:00+00:00",
@@ -34,7 +44,12 @@
         "externalId":"39772556",
         "name":"Bryson Tiller",
         "type":"live",
-        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772556-bryson-tiller?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/live-stream-concerts\/39772556-bryson-tiller?utm_medium=organic&utm_source=microformat",
+        "venueName":"",
+        "city":"",
+        "region":"",
+        "countryCode":"",
+        "venueExternalId":0
     },
     {
         "date":"2018-05-25T00:00:00+02:00",
@@ -46,7 +61,12 @@
         "externalId":"32361954",
         "name":"Bryson Tiller",
         "type":"festivals",
-        "uri":"https:\/\/www.songkick.com\/festivals\/647469-boston-calling\/id\/32361954-boston-calling-2018?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/festivals\/647469-boston-calling\/id\/32361954-boston-calling-2018?utm_medium=organic&utm_source=microformat",
+        "venueName":"Harvard Athletic Complex",
+        "city":"Boston",
+        "region":"MA",
+        "countryCode":"US",
+        "venueExternalId":3327749
     },
     {
         "date":"2017-12-30T20:00:00-08:00",
@@ -58,7 +78,12 @@
         "externalId":"31917074",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/31917074-bryson-tiller-at-fox-theater-oakland?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/31917074-bryson-tiller-at-fox-theater-oakland?utm_medium=organic&utm_source=microformat",
+        "venueName":"Fox Theater - Oakland",
+        "city":"Oakland",
+        "region":"CA",
+        "countryCode":"US",
+        "venueExternalId":953251
     },
     {
         "date":"2017-12-29T23:00:00-08:00",
@@ -70,7 +95,12 @@
         "externalId":"31984419",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/31984419-bryson-tiller-at-lure-nightclub?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/31984419-bryson-tiller-at-lure-nightclub?utm_medium=organic&utm_source=microformat",
+        "venueName":"Lure Nightclub",
+        "city":"Hollywood",
+        "region":"CA",
+        "countryCode":"US",
+        "venueExternalId":3483064
     },
     {
         "date":"2017-12-29T20:00:00-08:00",
@@ -82,7 +112,12 @@
         "externalId":"31917054",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/31917054-bryson-tiller-at-observatory?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/31917054-bryson-tiller-at-observatory?utm_medium=organic&utm_source=microformat",
+        "venueName":"The Observatory",
+        "city":"Santa Ana",
+        "region":"CA",
+        "countryCode":"US",
+        "venueExternalId":1487
     },
     {
         "date":"2017-12-27T22:00:00-08:00",
@@ -94,7 +129,12 @@
         "externalId":"32296539",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/32296539-bryson-tiller-at-project-club-la?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/32296539-bryson-tiller-at-project-club-la?utm_medium=organic&utm_source=microformat",
+        "venueName":"Project Club LA",
+        "city":"Hollywood",
+        "region":"CA",
+        "countryCode":"US",
+        "venueExternalId":2950293
     },
     {
         "date":"2017-12-27T19:00:00-08:00",
@@ -106,7 +146,12 @@
         "externalId":"31919914",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/31919914-bryson-tiller-at-novo-by-microsoft?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/31919914-bryson-tiller-at-novo-by-microsoft?utm_medium=organic&utm_source=microformat",
+        "venueName":"The Novo by Microsoft",
+        "city":"Los Angeles (LA)",
+        "region":"CA",
+        "countryCode":"US",
+        "venueExternalId":2871953
     },
     {
         "date":"2017-12-01T19:00:00+00:00",
@@ -118,7 +163,12 @@
         "externalId":"30655324",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30655324-bryson-tiller-at-o2-victoria-warehouse-manchester?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30655324-bryson-tiller-at-o2-victoria-warehouse-manchester?utm_medium=organic&utm_source=microformat",
+        "venueName":"O2 Victoria Warehouse Manchester",
+        "city":"Manchester",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":1905253
     },
     {
         "date":"2017-11-30T18:30:00+00:00",
@@ -130,7 +180,12 @@
         "externalId":"30699934",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30699934-bryson-tiller-at-3arena?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30699934-bryson-tiller-at-3arena?utm_medium=organic&utm_source=microformat",
+        "venueName":"3Arena",
+        "city":"Dublin",
+        "region":"",
+        "countryCode":"Ireland",
+        "venueExternalId":29945
     },
     {
         "date":"2017-11-28T19:00:00+00:00",
@@ -142,7 +197,12 @@
         "externalId":"30648824",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30648824-bryson-tiller-at-eventim-apollo?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30648824-bryson-tiller-at-eventim-apollo?utm_medium=organic&utm_source=microformat",
+        "venueName":"Eventim Apollo",
+        "city":"London",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":8086
     },
     {
         "date":"2017-11-27T19:00:00+00:00",
@@ -154,7 +214,12 @@
         "externalId":"30648599",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30648599-bryson-tiller-at-eventim-apollo?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30648599-bryson-tiller-at-eventim-apollo?utm_medium=organic&utm_source=microformat",
+        "venueName":"Eventim Apollo",
+        "city":"London",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":8086
     },
     {
         "date":"2017-11-25T19:00:00+00:00",
@@ -166,7 +231,12 @@
         "externalId":"30655234",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30655234-bryson-tiller-at-o2-victoria-warehouse-manchester?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30655234-bryson-tiller-at-o2-victoria-warehouse-manchester?utm_medium=organic&utm_source=microformat",
+        "venueName":"O2 Victoria Warehouse Manchester",
+        "city":"Manchester",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":1905253
     },
     {
         "date":"2017-11-24T18:00:00+00:00",
@@ -178,7 +248,12 @@
         "externalId":"30640064",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30640064-bryson-tiller-at-o2-academy-birmingham?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30640064-bryson-tiller-at-o2-academy-birmingham?utm_medium=organic&utm_source=microformat",
+        "venueName":"O2 Academy Birmingham",
+        "city":"Birmingham",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":640211
     },
     {
         "date":"2017-11-22T19:00:00+00:00",
@@ -190,7 +265,12 @@
         "externalId":"30639974",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30639974-bryson-tiller-at-o2-academy-birmingham?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30639974-bryson-tiller-at-o2-academy-birmingham?utm_medium=organic&utm_source=microformat",
+        "venueName":"O2 Academy Birmingham",
+        "city":"Birmingham",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":640211
     },
     {
         "date":"2017-11-20T19:00:00+00:00",
@@ -202,7 +282,12 @@
         "externalId":"30693494",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30693494-bryson-tiller-at-o2-academy-glasgow?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30693494-bryson-tiller-at-o2-academy-glasgow?utm_medium=organic&utm_source=microformat",
+        "venueName":"O2 Academy Glasgow",
+        "city":"Glasgow",
+        "region":"",
+        "countryCode":"UK",
+        "venueExternalId":38722
     },
     {
         "date":"2017-11-17T19:30:00+01:00",
@@ -214,7 +299,12 @@
         "externalId":"30713539",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713539-bryson-tiller-at-mehr-theater-am-grossmarkt?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713539-bryson-tiller-at-mehr-theater-am-grossmarkt?utm_medium=organic&utm_source=microformat",
+        "venueName":"Mehr! Theater am Großmarkt",
+        "city":"Hamburg",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":2784458
     },
     {
         "date":"2017-11-14T20:00:00+01:00",
@@ -226,7 +316,12 @@
         "externalId":"30727844",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30727844-bryson-tiller-at-planettt-bank-austria-halle-gasometer?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30727844-bryson-tiller-at-planettt-bank-austria-halle-gasometer?utm_medium=organic&utm_source=microformat",
+        "venueName":"Planet.tt Bank Austria Halle Gasometer",
+        "city":"Vienna",
+        "region":"",
+        "countryCode":"Austria",
+        "venueExternalId":52993
     },
     {
         "date":"2017-11-08T19:30:00+01:00",
@@ -238,7 +333,12 @@
         "externalId":"30713529",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713529-bryson-tiller-at-zenith-die-kulturhalle?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713529-bryson-tiller-at-zenith-die-kulturhalle?utm_medium=organic&utm_source=microformat",
+        "venueName":"Zenith, Die Kulturhalle",
+        "city":"Munich",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":880251
     },
     {
         "date":"2017-11-07T19:30:00+01:00",
@@ -250,7 +350,12 @@
         "externalId":"30713524",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713524-bryson-tiller-at-lkalonghorn?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713524-bryson-tiller-at-lkalonghorn?utm_medium=organic&utm_source=microformat",
+        "venueName":"LKA-Longhorn",
+        "city":"Stuttgart",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":30213
     },
     {
         "date":"2017-11-05T19:30:00+01:00",
@@ -262,7 +367,12 @@
         "externalId":"30713519",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713519-bryson-tiller-at-stadthalle-offenbach?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713519-bryson-tiller-at-stadthalle-offenbach?utm_medium=organic&utm_source=microformat",
+        "venueName":"Stadthalle Offenbach",
+        "city":"Offenbach",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":629126
     },
     {
         "date":"2017-11-03T19:30:00+01:00",
@@ -274,7 +384,12 @@
         "externalId":"30713514",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713514-bryson-tiller-at-turbinenhalle?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713514-bryson-tiller-at-turbinenhalle?utm_medium=organic&utm_source=microformat",
+        "venueName":"Turbinenhalle",
+        "city":"Oberhausen",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":37334
     },
     {
         "date":"2017-11-02T19:30:00+01:00",
@@ -286,7 +401,12 @@
         "externalId":"30713509",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30713509-bryson-tiller-at-columbiahalle?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30713509-bryson-tiller-at-columbiahalle?utm_medium=organic&utm_source=microformat",
+        "venueName":"Columbiahalle",
+        "city":"Berlin",
+        "region":"",
+        "countryCode":"Germany",
+        "venueExternalId":29623
     },
     {
         "date":"2017-10-28T00:00:00+02:00",
@@ -298,7 +418,12 @@
         "externalId":"30718809",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30718809-bryson-tiller-at-annexet?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30718809-bryson-tiller-at-annexet?utm_medium=organic&utm_source=microformat",
+        "venueName":"Annexet",
+        "city":"Stockholm",
+        "region":"",
+        "countryCode":"Sweden",
+        "venueExternalId":2300249
     },
     {
         "date":"2017-10-27T19:30:00+02:00",
@@ -310,7 +435,12 @@
         "externalId":"30699749",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30699749-bryson-tiller-at-kajskjul-105?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30699749-bryson-tiller-at-kajskjul-105?utm_medium=organic&utm_source=microformat",
+        "venueName":"Kajskjul 105",
+        "city":"Gothenburg",
+        "region":"",
+        "countryCode":"Sweden",
+        "venueExternalId":3616619
     },
     {
         "date":"2017-10-24T20:00:00+02:00",
@@ -322,7 +452,12 @@
         "externalId":"30699729",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30699729-bryson-tiller-at-afas-live?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30699729-bryson-tiller-at-afas-live?utm_medium=organic&utm_source=microformat",
+        "venueName":"AFAS Live",
+        "city":"Amsterdam",
+        "region":"",
+        "countryCode":"Netherlands",
+        "venueExternalId":3448014
     },
     {
         "date":"2017-10-21T00:00:00+02:00",
@@ -334,7 +469,12 @@
         "externalId":"31182024",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/31182024-bryson-tiller-at-forest-national-vorst-nationaal?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/31182024-bryson-tiller-at-forest-national-vorst-nationaal?utm_medium=organic&utm_source=microformat",
+        "venueName":"Forest National \/ Vorst Nationaal",
+        "city":"Brussels",
+        "region":"",
+        "countryCode":"Belgium",
+        "venueExternalId":31696
     },
     {
         "date":"2017-10-19T20:00:00+02:00",
@@ -346,7 +486,12 @@
         "externalId":"30701224",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30701224-bryson-tiller-at-zenith-paris-la-villette?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30701224-bryson-tiller-at-zenith-paris-la-villette?utm_medium=organic&utm_source=microformat",
+        "venueName":"Zénith Paris - La Villette",
+        "city":"Paris",
+        "region":"",
+        "countryCode":"France",
+        "venueExternalId":4167064
     },
     {
         "date":"2017-10-17T20:00:00+02:00",
@@ -358,7 +503,12 @@
         "externalId":"30701229",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30701229-bryson-tiller-at-le-silo?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30701229-bryson-tiller-at-le-silo?utm_medium=organic&utm_source=microformat",
+        "venueName":"Le Silo",
+        "city":"Marseille",
+        "region":"",
+        "countryCode":"France",
+        "venueExternalId":1322826
     },
     {
         "date":"2017-10-01T13:00:00+10:00",
@@ -370,7 +520,12 @@
         "externalId":"30851189",
         "name":"Bryson Tiller",
         "type":"festivals",
-        "uri":"https:\/\/www.songkick.com\/festivals\/1123558-listen-out-brisbane\/id\/30851189-listen-out-brisbane-2017?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/festivals\/1123558-listen-out-brisbane\/id\/30851189-listen-out-brisbane-2017?utm_medium=organic&utm_source=microformat",
+        "venueName":"The Sporting Fields, Victoria Park",
+        "city":"Brisbane",
+        "region":"QLD",
+        "countryCode":"Australia",
+        "venueExternalId":3629554
     },
     {
         "date":"2017-09-30T00:00:00+02:00",
@@ -382,7 +537,12 @@
         "externalId":"30764694",
         "name":"Bryson Tiller",
         "type":"festivals",
-        "uri":"https:\/\/www.songkick.com\/festivals\/1347249-listen-out-sydney\/id\/30764694-listen-out-sydney-2017?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/festivals\/1347249-listen-out-sydney\/id\/30764694-listen-out-sydney-2017?utm_medium=organic&utm_source=microformat",
+        "venueName":"Centennial Park",
+        "city":"Sydney",
+        "region":"NSW",
+        "countryCode":"Australia",
+        "venueExternalId":37465
     },
     {
         "date":"2017-09-29T21:00:00+10:00",
@@ -394,7 +554,12 @@
         "externalId":"30863099",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30863099-bryson-tiller-at-concert-hall-sydney-opera-house?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30863099-bryson-tiller-at-concert-hall-sydney-opera-house?utm_medium=organic&utm_source=microformat",
+        "venueName":"Concert Hall, Sydney Opera House",
+        "city":"Sydney",
+        "region":"NSW",
+        "countryCode":"Australia",
+        "venueExternalId":781986
     },
     {
         "date":"2017-09-27T19:00:00+10:00",
@@ -406,7 +571,12 @@
         "externalId":"30826339",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30826339-bryson-tiller-at-forum-melbourne?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30826339-bryson-tiller-at-forum-melbourne?utm_medium=organic&utm_source=microformat",
+        "venueName":"Forum Melbourne",
+        "city":"Melbourne",
+        "region":"VIC",
+        "countryCode":"Australia",
+        "venueExternalId":33261
     },
     {
         "date":"2017-09-24T00:00:00+02:00",
@@ -418,7 +588,12 @@
         "externalId":"30851124",
         "name":"Bryson Tiller",
         "type":"festivals",
-        "uri":"https:\/\/www.songkick.com\/festivals\/1347244-listen-out-perth\/id\/30851124-listen-out-perth-2017?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/festivals\/1347244-listen-out-perth\/id\/30851124-listen-out-perth-2017?utm_medium=organic&utm_source=microformat",
+        "venueName":"Western Parklands, HBF Arena",
+        "city":"Joondalup",
+        "region":"WA",
+        "countryCode":"Australia",
+        "venueExternalId":3629544
     },
     {
         "date":"2017-09-23T00:00:00+02:00",
@@ -430,7 +605,12 @@
         "externalId":"30765029",
         "name":"Bryson Tiller",
         "type":"festivals",
-        "uri":"https:\/\/www.songkick.com\/festivals\/1347239-listen-out-melbourne\/id\/30765029-listen-out-melbourne-2017?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/festivals\/1347239-listen-out-melbourne\/id\/30765029-listen-out-melbourne-2017?utm_medium=organic&utm_source=microformat",
+        "venueName":"Catani Gardens",
+        "city":"Saint Kilda",
+        "region":"VIC",
+        "countryCode":"Australia",
+        "venueExternalId":3024189
     },
     {
         "date":"2017-09-22T20:00:00+12:00",
@@ -442,7 +622,12 @@
         "externalId":"30328149",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30328149-bryson-tiller-at-logan-campbell-centre?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30328149-bryson-tiller-at-logan-campbell-centre?utm_medium=organic&utm_source=microformat",
+        "venueName":"Logan Campbell Centre",
+        "city":"Auckland",
+        "region":"",
+        "countryCode":"New Zealand",
+        "venueExternalId":35586
     },
     {
         "date":"2017-09-16T19:30:00-05:00",
@@ -454,7 +639,12 @@
         "externalId":"30315839",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315839-bryson-tiller-at-kfc-yum-center?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315839-bryson-tiller-at-kfc-yum-center?utm_medium=organic&utm_source=microformat",
+        "venueName":"KFC Yum! Center",
+        "city":"Louisville",
+        "region":"KY",
+        "countryCode":"US",
+        "venueExternalId":1035851
     },
     {
         "date":"2017-09-15T19:00:00-05:00",
@@ -466,7 +656,12 @@
         "externalId":"30310449",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30310449-bryson-tiller-at-aragon-ballroom?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30310449-bryson-tiller-at-aragon-ballroom?utm_medium=organic&utm_source=microformat",
+        "venueName":"Aragon Ballroom",
+        "city":"Chicago",
+        "region":"IL",
+        "countryCode":"US",
+        "venueExternalId":837
     },
     {
         "date":"2017-09-14T18:30:00-04:00",
@@ -478,7 +673,12 @@
         "externalId":"30315794",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315794-bryson-tiller-at-masonic-temple?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315794-bryson-tiller-at-masonic-temple?utm_medium=organic&utm_source=microformat",
+        "venueName":"Masonic Temple",
+        "city":"Detroit",
+        "region":"MI",
+        "countryCode":"US",
+        "venueExternalId":7495
     },
     {
         "date":"2017-09-13T19:30:00-04:00",
@@ -490,7 +690,12 @@
         "externalId":"30314544",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30314544-bryson-tiller-at-rbc-echo-beach?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30314544-bryson-tiller-at-rbc-echo-beach?utm_medium=organic&utm_source=microformat",
+        "venueName":"RBC Echo Beach",
+        "city":"Toronto",
+        "region":"ON",
+        "countryCode":"Canada",
+        "venueExternalId":1344616
     },
     {
         "date":"2017-09-11T19:00:00-04:00",
@@ -502,7 +707,12 @@
         "externalId":"30315769",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315769-bryson-tiller-at-skyline-stage-mann-center-for-the-performing-arts?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315769-bryson-tiller-at-skyline-stage-mann-center-for-the-performing-arts?utm_medium=organic&utm_source=microformat",
+        "venueName":"Skyline Stage, Mann Center for the Performing Arts",
+        "city":"Philadelphia",
+        "region":"PA",
+        "countryCode":"US",
+        "venueExternalId":1824138
     },
     {
         "date":"2017-09-09T19:00:00-04:00",
@@ -514,7 +724,12 @@
         "externalId":"30315744",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315744-bryson-tiller-at-radio-city-music-hall?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315744-bryson-tiller-at-radio-city-music-hall?utm_medium=organic&utm_source=microformat",
+        "venueName":"Radio City Music Hall",
+        "city":"New York (NYC)",
+        "region":"NY",
+        "countryCode":"US",
+        "venueExternalId":626
     },
     {
         "date":"2017-09-08T19:00:00-04:00",
@@ -526,7 +741,12 @@
         "externalId":"30315734",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315734-bryson-tiller-at-radio-city-music-hall?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315734-bryson-tiller-at-radio-city-music-hall?utm_medium=organic&utm_source=microformat",
+        "venueName":"Radio City Music Hall",
+        "city":"New York (NYC)",
+        "region":"NY",
+        "countryCode":"US",
+        "venueExternalId":626
     },
     {
         "date":"2017-09-07T20:00:00-04:00",
@@ -538,7 +758,12 @@
         "externalId":"30315714",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315714-bryson-tiller-at-grand-theater-foxwoods-resort-casino?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315714-bryson-tiller-at-grand-theater-foxwoods-resort-casino?utm_medium=organic&utm_source=microformat",
+        "venueName":"Grand Theater, Foxwoods Resort Casino",
+        "city":"Mashantucket",
+        "region":"CT",
+        "countryCode":"US",
+        "venueExternalId":16384
     },
     {
         "date":"2017-09-02T00:00:00+02:00",
@@ -550,7 +775,12 @@
         "externalId":"30312139",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30312139-bryson-tiller-at-wolf-trap?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30312139-bryson-tiller-at-wolf-trap?utm_medium=organic&utm_source=microformat",
+        "venueName":"Wolf Trap",
+        "city":"Vienna",
+        "region":"VA",
+        "countryCode":"US",
+        "venueExternalId":569286
     },
     {
         "date":"2017-08-30T19:30:00-04:00",
@@ -562,7 +792,12 @@
         "externalId":"30315649",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315649-bryson-tiller-at-addition-financial-arena?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315649-bryson-tiller-at-addition-financial-arena?utm_medium=organic&utm_source=microformat",
+        "venueName":"Addition Financial Arena",
+        "city":"Orlando",
+        "region":"FL",
+        "countryCode":"US",
+        "venueExternalId":11017
     },
     {
         "date":"2017-08-29T19:30:00-04:00",
@@ -574,7 +809,12 @@
         "externalId":"30315644",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30315644-bryson-tiller-at-watsco-center?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30315644-bryson-tiller-at-watsco-center?utm_medium=organic&utm_source=microformat",
+        "venueName":"Watsco Center",
+        "city":"Coral Gables",
+        "region":"FL",
+        "countryCode":"US",
+        "venueExternalId":59764
     },
     {
         "date":"2017-08-25T20:00:00-05:00",
@@ -586,7 +826,12 @@
         "externalId":"30317994",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30317994-bryson-tiller-at-bomb-factory?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30317994-bryson-tiller-at-bomb-factory?utm_medium=organic&utm_source=microformat",
+        "venueName":"The Bomb Factory",
+        "city":"Dallas",
+        "region":"TX",
+        "countryCode":"US",
+        "venueExternalId":45544
     },
     {
         "date":"2017-08-23T18:30:00-06:00",
@@ -598,7 +843,12 @@
         "externalId":"30404134",
         "name":"Bryson Tiller",
         "type":"concerts",
-        "uri":"https:\/\/www.songkick.com\/concerts\/30404134-bryson-tiller-at-fiddlers-green-amphitheatre?utm_medium=organic&utm_source=microformat"
+        "uri":"https:\/\/www.songkick.com\/concerts\/30404134-bryson-tiller-at-fiddlers-green-amphitheatre?utm_medium=organic&utm_source=microformat",
+        "venueName":"Fiddler's Green Amphitheatre",
+        "city":"Greenwood Village",
+        "region":"CO",
+        "countryCode":"US",
+        "venueExternalId":100462
     }
 
 ]

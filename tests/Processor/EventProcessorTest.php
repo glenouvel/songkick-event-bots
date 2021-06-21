@@ -66,6 +66,11 @@ class EventProcessorTest extends KernelTestCase
             $this->assertNotEmpty($event->getDate());
             $this->assertNotEmpty($event->getName());
             $this->assertNotEmpty($event->getUrl());
+            $this->assertObjectHasAttribute('venueExternalId', $event);
+            $this->assertObjectHasAttribute('venue', $event);
+            $this->assertObjectHasAttribute('countryCode', $event);
+            $this->assertObjectHasAttribute('region', $event);
+            $this->assertObjectHasAttribute('city', $event);
         }
     }
 }
