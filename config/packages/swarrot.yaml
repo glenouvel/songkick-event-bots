@@ -31,6 +31,17 @@ swarrot:
           extras:
             requeue_on_error: true
 
+    venue.process:
+      processor: App\Processor\VenueProcessor
+      middleware_stack:
+        - configurator: swarrot.processor.insomniac
+        - configurator: swarrot.processor.max_messages
+          extras:
+            max_messages: 2000
+        - configurator: swarrot.processor.ack
+          extras:
+            requeue_on_error: true
+
 services:
   App\Processor\EventProcessor:
     arguments:
@@ -39,6 +50,12 @@ services:
       - '@soundcharts_wrapper.serializer'
 
   App\Processor\EventHistoryProcessor:
+    arguments:
+      - '@App\Provider\SongkickProvider'
+      - '@swarrot.publisher'
+      - '@soundcharts_wrapper.serializer'
+
+  App\Processor\VenueProcessor:
     arguments:
       - '@App\Provider\SongkickProvider'
       - '@swarrot.publisher'
