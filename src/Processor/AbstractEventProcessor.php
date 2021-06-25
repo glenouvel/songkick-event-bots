@@ -77,7 +77,7 @@ abstract class AbstractEventProcessor implements ProcessorInterface, ExchangeInt
         }
 
         $this->publisher->publish(
-            self::EXCHANGE_SOCIAL,
+            'common',
             new Message(
                 $this->serializer->serialize($account, 'json'),
                 [

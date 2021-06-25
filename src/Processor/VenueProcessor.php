@@ -70,7 +70,7 @@ class VenueProcessor implements ProcessorInterface, ExchangeInterface, PlatformI
             'common',
             $this->createMessageFromSerializable($eventWrapper),
             [
-                'routing_key' => 'venue.processed',
+                'routing_key' => 'event.venue.processed',
                 'exchange'    => ''
             ]
         );

@@ -27,10 +27,10 @@
         <env name="APP_ENV" value="test" force="true"/>
         <env name="SYMFONY_DEPRECATIONS_HELPER" force="true" value="weak" />
         <env name="SHELL_VERBOSITY" value="1" />
-        <env name="RABBITMQ_CLASSIC_HOST" value="127.0.0.1" />
-        <env name="RABBITMQ_CLASSIC_PORT" value="5672" />
-        <env name="RABBITMQ_CLASSIC_USER" value="guest" />
-        <env name="RABBITMQ_CLASSIC_PASSWORD" value="guest" />
+        <env name="RABBITMQ_MAIN_HOST" value="127.0.0.1" />
+        <env name="RABBITMQ_MAIN_PORT" value="5672" />
+        <env name="RABBITMQ_MAIN_USER" value="guest" />
+        <env name="RABBITMQ_MAIN_PASSWORD" value="guest" />
         <env name="REDIS_CACHE_URL" value="" />
 
     </php>

@@ -1,11 +1,11 @@
 swarrot:
   connections:
-    rabbitmq.streaming:
-      url: "amqp://%env(RABBITMQ_CLASSIC_USER)%:%env(RABBITMQ_CLASSIC_PASSWORD)%@%env(RABBITMQ_CLASSIC_HOST)%:%env(RABBITMQ_CLASSIC_PORT)%/streaming"
+    rabbitmq:
+      url: "amqp://%env(RABBITMQ_MAIN_USER)%:%env(RABBITMQ_MAIN_PASSWORD)%@%env(RABBITMQ_MAIN_HOST)%:%env(RABBITMQ_MAIN_PORT)%/%env(RABBITMQ_MAIN_VHOST)%"
 
   messages_types:
     common:
-      connection: rabbitmq.streaming
+      connection: rabbitmq
       exchange: ''
 
   consumers:
