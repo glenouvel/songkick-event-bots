@@ -888,12 +888,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:soundcharts/wrapper-bundle.git",
-                "reference": "fcc7167fd564d586d185ed5b118f9d0dff05f204"
+                "reference": "cb6c65404a460095ed3cb0dbc7d29906a2f33e06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/soundcharts/wrapper-bundle/zipball/fcc7167fd564d586d185ed5b118f9d0dff05f204",
-                "reference": "fcc7167fd564d586d185ed5b118f9d0dff05f204",
+                "url": "https://api.github.com/repos/soundcharts/wrapper-bundle/zipball/cb6c65404a460095ed3cb0dbc7d29906a2f33e06",
+                "reference": "cb6c65404a460095ed3cb0dbc7d29906a2f33e06",
                 "shasum": ""
             },
             "require": {
@@ -933,7 +933,7 @@
                 "source": "https://github.com/soundcharts/wrapper-bundle/tree/2.x",
                 "issues": "https://github.com/soundcharts/wrapper-bundle/issues"
             },
-            "time": "2021-06-09T14:55:30+00:00"
+            "time": "2021-06-25T11:41:24+00:00"
         },
         {
             "name": "swarrot/swarrot",

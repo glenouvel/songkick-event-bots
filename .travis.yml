@@ -16,10 +16,12 @@ addons:
 before_script:
   - echo 'autodetect' | pecl install amqp
   - echo 'autodetect' | pecl install imagick
-  - composer self-update --rollback
-  - composer install -n
   - cp .env.dist .env
 
+before_install:
+  - wget --output-document=$HOME/composer https://getcomposer.org/composer-1.phar && chmod 0755 $HOME/composer
+  - echo "memory_limit=-1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+  - $HOME/composer install -n
 
 script:
   - ./vendor/bin/simple-phpunit --coverage-clover=coverage.clover
