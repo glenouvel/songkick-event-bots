@@ -7,4 +7,5 @@ return [
     Soundcharts\WrapperBundle\SoundchartsWrapperBundle::class => ['all' => true],
     Soundcharts\ApiClientBundle\SoundchartsApiClientBundle::class => ['all' => true],
     Snc\RedisBundle\SncRedisBundle::class => ['all' => true],
+    Soundcharts\SwarrotProcessManagerBundle\SoundchartsSwarrotProcessManagerBundle::class => ['all' => true],
 ];

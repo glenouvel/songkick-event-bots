@@ -18,3 +18,26 @@ services:
     arguments:
       - '@app.client'
       - '@Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'
+
+  app.command.processing:
+    parent: 'soundcharts_swarrot_process_manager.command.consumer_manager'
+    calls:
+      - method: setDefaultConnection
+        arguments:
+          - 'rabbitmq'
+      - method: setName
+        arguments:
+          - 'soundcharts:songkick:process'
+      - method: setConsumers
+        arguments:
+          - consumer: event.process
+            queue: event-artist-songkick-pending
+            queueMode: lazy
+          - consumer: event.history.process
+            queue: event-artist-songkick-history-pending
+            queueMode: lazy
+          - consumer: venue.process
+            queue: event-artist-songkick-venue-pending
+            queueMode: lazy
+
+    tags: [ 'console.command' ]

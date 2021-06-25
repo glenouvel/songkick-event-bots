@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccfb9cdd787ad067d02559e15391b912",
+    "content-hash": "332052beaff4a1f01e5f6ebfe4db8ca4",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -881,6 +881,55 @@
                 "issues": "https://github.com/soundcharts/helpers/issues"
             },
             "time": "2021-06-08T08:25:34+00:00"
+        },
+        {
+            "name": "soundcharts/swarrot-process-manager-bundle",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:soundcharts/swarrot-process-manager-bundle.git",
+                "reference": "330dc548aa2ac92f008e02aa80847d88a2d54f29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundcharts/swarrot-process-manager-bundle/zipball/330dc548aa2ac92f008e02aa80847d88a2d54f29",
+                "reference": "330dc548aa2ac92f008e02aa80847d88a2d54f29",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "swarrot/swarrot-bundle": "^1.5 || ^2.0",
+                "symfony/config": "^3.4 || ^4.0 || ^5.0",
+                "symfony/console": "^3.4 || ^4.0 || ^5.0",
+                "symfony/dependency-injection": "^3.4 || ^4.0 || ^5.0",
+                "symfony/yaml": "^3.4 || ^4.0 || ^5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0",
+                "symfony/phpunit-bridge": "^4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "symfony": {
+                    "id": "01CB9ZEZ6KF7CFCQJWMRXA8DC8",
+                    "allow-contrib": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Soundcharts\\SwarrotProcessManagerBundle\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Soundcharts\\SwarrotProcessManagerBundle\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "A process manager for swarrot consumers",
+            "time": "2021-01-26T08:51:54+00:00"
         },
         {
             "name": "soundcharts/wrapper-bundle",
@@ -5569,5 +5618,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
