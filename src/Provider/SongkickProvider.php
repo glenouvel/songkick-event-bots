@@ -59,7 +59,7 @@ class SongkickProvider
     private function getEventCollection(string $identifier, string $method): EventCollection
     {
 
-        $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/%s?%s', $method, $identifier);
+        $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/%s?identifier=%s', $method, $identifier);
 
         $json = $this->client->request('GET', $uri)->getBody()->getContents();
 
@@ -76,7 +76,7 @@ class SongkickProvider
      */
     public function getVenue(string $identifier): Venue
     {
-        $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/venue?%s', $identifier);
+        $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/venue?identifier=%s', $identifier);
 
         $json = $this->client->request('GET', $uri)->getBody()->getContents();
 
