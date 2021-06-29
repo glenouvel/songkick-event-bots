@@ -14,7 +14,7 @@ class TestCompilerPass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         foreach ($container->getDefinitions() as $id => $definition) {
-            if (!preg_match('/Soundcharts|App|app/', $id)) {
+            if (!preg_match('/Soundcharts|App|app|song/', $id)) {
                 continue;
             }
             $definition->setPublic(true);

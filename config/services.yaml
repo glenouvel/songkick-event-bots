@@ -18,6 +18,7 @@ services:
     arguments:
       - '@app.client'
       - '@Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'
+      - '@songkick.provider.transport'
 
   app.command.processing:
     parent: 'soundcharts_swarrot_process_manager.command.consumer_manager'

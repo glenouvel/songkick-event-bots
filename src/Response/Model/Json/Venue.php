@@ -13,14 +13,13 @@ class Venue extends AbstractResponse
     public function getMapping(): array
     {
         return [
-            'id'            => 'id',
-            'name'          => 'name',
-            'streetAddress' => 'streetAddress',
-            'city'          => 'city',
-            'region'        => 'region',
-            'countryCode'   => 'countryCode',
-            'postalCode'    => 'postalCode',
-            'capacity'      => 'capacity',
+            'id'            => 'resultsPage.results.venue.id',
+            'name'          => 'resultsPage.results.venue.displayName',
+            'streetAddress' => 'resultsPage.results.venue.street',
+            'city'          => 'resultsPage.results.venue.city.displayName',
+            'countryCode'   => 'resultsPage.results.venue.city.country.displayName',
+            'postalCode'    => 'resultsPage.results.venue.zip',
+            'capacity'      => 'resultsPage.results.venue.capacity',
         ];
     }
 
@@ -54,14 +53,6 @@ class Venue extends AbstractResponse
     public function getCity(): string
     {
         return $this->getValue('city');
-    }
-
-    /**
-     * @return string
-     */
-    public function getRegion(): string
-    {
-        return $this->getValue('region');
     }
 
     /**

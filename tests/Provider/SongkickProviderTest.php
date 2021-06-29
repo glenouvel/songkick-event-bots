@@ -8,6 +8,7 @@ use App\Response\Model\Json\EventCollection;
 use App\Response\Model\Json\Venue;
 use App\Tests\ResponseMockTrait;
 use GuzzleHttp\ClientInterface;
+use Soundcharts\SongkickApiClientBundle\Transport;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 class SongkickProviderTest extends KernelTestCase
@@ -25,8 +26,11 @@ class SongkickProviderTest extends KernelTestCase
             ->method('request')
             ->willReturn($this->getResponseMock(__DIR__ . '/../dataset/gigography-bryson.json'));
 
-        $provider = new SongkickProvider($client,
-            self::$kernel->getContainer()->get('Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'));
+        $provider = new SongkickProvider(
+            $client,
+            self::$kernel->getContainer()->get('Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'),
+            self::$kernel->getContainer()->get('songkick.provider.transport')
+        );
 
         /** @var EventCollection $eventCollection */
         $eventCollection = $provider->getLatestEvents('1234');
@@ -59,27 +63,33 @@ class SongkickProviderTest extends KernelTestCase
 
         $client = $this->createMock(ClientInterface::class);
 
-        $client
-            ->expects($this->once())
-            ->method('request')
-            ->willReturn($this->getResponseMock(__DIR__ . '/../dataset/venue.json'));
+        $jsonVenueDetailsResponse  = file_get_contents(__DIR__ . '/../dataset/mock_api_venue.json');
+        $transport = $this->createMock(Transport::class);
 
-        $provider = new SongkickProvider($client,
-            self::$kernel->getContainer()->get('Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'));
+        $transport
+            ->expects($this->any())
+            ->method('getVenueDetails')
+            ->with()
+            ->willReturn($jsonVenueDetailsResponse)
+        ;
 
-        $venue = $provider->getVenue('test');
+        $provider = new SongkickProvider(
+            $client,
+            self::$kernel->getContainer()->get('Soundcharts\ApiClientBundle\Response\MusicResponseBuilder'),
+            $transport
+        );
+
+        $venue = $provider->getVenue(90962);
 
         $this->assertInstanceOf(Venue::class, $venue);
 
         $this->assertNotEmpty($venue);
 
-        $this->assertEquals('test', $venue->getIdentifier());
-        $this->assertEquals("Fiddler's Green Amphitheatre", $venue->getName());
-        $this->assertEquals('6350 Greenwood Plaza Blvd.', $venue->getStreetAddress());
-        $this->assertEquals('Greenwood Village', $venue->getCity());
-        $this->assertEquals('CO', $venue->getRegion());
-        $this->assertEquals('80111', $venue->getPostalCode());
-        $this->assertEquals('US', $venue->getCountryCode());
-        $this->assertEquals(18000, $venue->getCapacity());
+        $this->assertEquals(17522, $venue->getIdentifier());
+        $this->assertEquals("O2 Academy Brixton", $venue->getName());
+        $this->assertEquals('211 Stockwell Road', $venue->getStreetAddress());
+        $this->assertEquals('London', $venue->getCity());
+        $this->assertEquals('SW9 9SL', $venue->getPostalCode());
+        $this->assertEquals(4921, $venue->getCapacity());
     }
 }

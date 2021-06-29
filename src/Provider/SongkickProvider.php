@@ -7,6 +7,7 @@ use App\Response\Model\Json\Venue;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use Soundcharts\ApiClientBundle\Response\ResponseBuilderInterface;
+use Soundcharts\SongkickApiClientBundle\Transport;
 use Symfony\Component\Serializer\SerializerInterface;
 
 class SongkickProvider
@@ -22,15 +23,23 @@ class SongkickProvider
     private $responseBuilder;
 
     /**
+     * @var Transport
+     */
+    private $transport;
+
+    /**
      * @param ClientInterface          $client
      * @param ResponseBuilderInterface $responseBuilder
+     * @param Transport                $transport
      */
     public function __construct(
         ClientInterface $client,
-        ResponseBuilderInterface $responseBuilder
+        ResponseBuilderInterface $responseBuilder,
+        Transport $transport
     ) {
         $this->client          = $client;
         $this->responseBuilder = $responseBuilder;
+        $this->transport       = $transport;
     }
 
     /**
@@ -76,11 +85,9 @@ class SongkickProvider
      */
     public function getVenue(string $identifier): Venue
     {
-        $uri = sprintf('http://gateway.internal.soundcharts.com/provide/songkick/venue?identifier=%s', $identifier);
+        $json = $this->transport->getVenueDetails($identifier);
 
-        $json = $this->client->request('GET', $uri)->getBody()->getContents();
-
-        /** @var  Venue $venue */
+        /** @var Venue $venue */
         $venue = $this->responseBuilder->buildResponse(Venue::class, $json);
 
         return $venue;

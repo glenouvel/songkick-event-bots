@@ -10,6 +10,7 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3",
         "soundcharts/api-client-bundle": ">=3.6",
+        "soundcharts/songkick-api-client-bundle": ">=1.1.4",
         "soundcharts/swarrot-process-manager-bundle": "^1.2",
         "soundcharts/wrapper-bundle": "2.x-dev as 2.0",
         "swarrot/swarrot-bundle": "^1.5",

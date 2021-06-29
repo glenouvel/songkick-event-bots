@@ -1,0 +1,2 @@
+soundcharts_songkick_api_client:
+  api_key: '%env(SONG_KICK_API_KEY)%'
