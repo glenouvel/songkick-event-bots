@@ -74,12 +74,6 @@ class SongkickProviderTest extends KernelTestCase
         $this->assertNotEmpty($venue);
 
         $this->assertEquals('test', $venue->getIdentifier());
-        $this->assertEquals("Fiddler's Green Amphitheatre", $venue->getName());
-        $this->assertEquals('6350 Greenwood Plaza Blvd.', $venue->getStreetAddress());
-        $this->assertEquals('Greenwood Village', $venue->getCity());
-        $this->assertEquals('CO', $venue->getRegion());
-        $this->assertEquals('80111', $venue->getPostalCode());
-        $this->assertEquals('US', $venue->getCountryCode());
         $this->assertEquals(18000, $venue->getCapacity());
     }
 }

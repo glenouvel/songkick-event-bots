@@ -2,7 +2,8 @@
 
 namespace App\Processor;
 
-use App\Provider\SongkickProvider;
+//use App\Provider\SongkickProvider;
+use Soundcharts\SongkickApiClientBundle\Provider;
 use App\Response\Model\Json\Venue;
 use App\Traits\CreateMessageTrait;
 use Soundcharts\Contracts\Model\PlatformInterface;
@@ -18,7 +19,7 @@ class VenueProcessor implements ProcessorInterface, ExchangeInterface, PlatformI
     use CreateMessageTrait;
 
     /**
-     * @var SongkickProvider
+     * @var Provider
      */
     protected $provider;
 
@@ -31,11 +32,11 @@ class VenueProcessor implements ProcessorInterface, ExchangeInterface, PlatformI
     protected $serializer;
 
     /**
-     * @param SongkickProvider    $provider
+     * @param Provider            $provider
      * @param Publisher           $publisher
      * @param SerializerInterface $serializer
      */
-    public function __construct(SongkickProvider $provider, Publisher $publisher, SerializerInterface $serializer)
+    public function __construct(Provider $provider, Publisher $publisher, SerializerInterface $serializer)
     {
         $this->provider   = $provider;
         $this->publisher  = $publisher;
@@ -57,12 +58,12 @@ class VenueProcessor implements ProcessorInterface, ExchangeInterface, PlatformI
         $venue = $this->provider->getVenue($eventWrapper->getVenueExternalId());
         $dateTime = new \DateTime();
 
+        if (0 === $venue->getCapacity()) {
+            return true;
+        }
+
         $eventWrapper
-            ->setCity($venue->getCity())
-            ->setVenue($venue->getName())
             ->setVenueCapacity($venue->getCapacity())
-            ->setRegion($venue->getRegion())
-            ->setCountryCode($venue->getCountryCode())
             ->setDate($dateTime->format(DATE_ATOM))
         ;
 

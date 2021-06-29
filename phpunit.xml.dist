@@ -31,6 +31,7 @@
         <env name="RABBITMQ_MAIN_PORT" value="5672" />
         <env name="RABBITMQ_MAIN_USER" value="guest" />
         <env name="RABBITMQ_MAIN_PASSWORD" value="guest" />
+        <env name="RABBITMQ_MAIN_VHOST" value="/" />
         <env name="REDIS_CACHE_URL" value="" />
 
     </php>

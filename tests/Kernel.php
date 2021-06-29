@@ -25,8 +25,10 @@ class Kernel extends BaseKernel
             new \Symfony\Bundle\MonologBundle\MonologBundle(),
             new \Swarrot\SwarrotBundle\SwarrotBundle(),
             new SoundchartsWrapperBundle(),
+            new \Soundcharts\SwarrotProcessManagerBundle\SoundchartsSwarrotProcessManagerBundle(),
             new \Snc\RedisBundle\SncRedisBundle(),
             new \Soundcharts\ApiClientBundle\SoundchartsApiClientBundle(),
+            new \Soundcharts\SongkickApiClientBundle\SoundchartsSongkickApiClientBundle()
         ];
     }
 

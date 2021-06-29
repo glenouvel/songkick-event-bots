@@ -8,4 +8,5 @@ return [
     Soundcharts\ApiClientBundle\SoundchartsApiClientBundle::class => ['all' => true],
     Snc\RedisBundle\SncRedisBundle::class => ['all' => true],
     Soundcharts\SwarrotProcessManagerBundle\SoundchartsSwarrotProcessManagerBundle::class => ['all' => true],
+    Soundcharts\SongkickApiClientBundle\SoundchartsSongkickApiClientBundle::class => ['all' => true],
 ];

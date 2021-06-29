@@ -57,6 +57,6 @@ services:
 
   App\Processor\VenueProcessor:
     arguments:
-      - '@App\Provider\SongkickProvider'
+      - '@songkick.provider'
       - '@swarrot.publisher'
       - '@soundcharts_wrapper.serializer'
